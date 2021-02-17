@@ -1,0 +1,28 @@
+3 tabs:
+	todo task
+	today's plan -> a period plan
+	scheduel
+	past report 
+
+each task: 
+	title 
+	description (in a new window)
+	
+each row of a planned task:
+	title
+	description (in a new window)
+	start date
+	end date
+	status
+	period
+#table 2
+
+scheduel:
+	should start from now
+	represent data in pages
+	should have filter on each filed of the table 2:
+		title and description: =
+		start date and end date: range
+		status: subset
+		period: =
+		 
