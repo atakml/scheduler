@@ -25,4 +25,7 @@ scheduel:
 		start date and end date: range
 		status: subset
 		period: =
-		 
+
+Plan:
+    creat db
+    creat app
