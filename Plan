@@ -16,6 +16,7 @@ Each user:
         end date
         status
         period
+        alarm: when to alarm (list of alarms)
     #table 2
 
     scheduel:
@@ -30,3 +31,4 @@ Each user:
     Plan:
         creat db
         creat app
+    alarm events when user is logged in
