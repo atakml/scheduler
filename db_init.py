@@ -29,7 +29,7 @@ def execute_query(connection, query):
         print(f"Error: '{err}'")
 
 
-def database_init(create_database=False):
+def database_init():
     create_database_query = "CREATE DATABASE scheduler"
     check_database_exists_query = "SHOW DATABASES LIKE scheduler"
     connection = create_server_connection(host_name=configs.HOST_NAME, user_name=configs.USER_NAME,
