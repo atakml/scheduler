@@ -28,3 +28,9 @@ def execute_query(connection, query):
     except Error as err:
         print(f"Error: '{err}'")
 
+
+def database_init():
+    create_database_query = "CREATE DATABASE scheduler"
+    connection = create_server_connection(host_name=configs.HOST_NAME, user_name=configs.USER_NAME,
+                                          user_password=configs.PASSWORD)
+    execute_query(connection, create_database_query)
